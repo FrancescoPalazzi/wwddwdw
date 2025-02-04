@@ -69,9 +69,7 @@ print_result:
     mov ah, 4Ch
     int 21h
 
-;----------------------------------------------
-; Subroutine per l'inserimento di un vettore
-;----------------------------------------------
+
 input_vector proc
     mov cx, 3        ; Ripeti per 3 elementi
 next_input:
